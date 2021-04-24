@@ -355,10 +355,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 2900 5000 2900
 $Comp
-L Device:Rotary_Encoder_Switch ROT1
+L Device:Rotary_Encoder_Switch ROT1A1
 U 1 1 608C6A64
 P 6950 3050
-F 0 "ROT1" H 6950 2683 50  0000 C CNN
+F 0 "ROT1A1" H 6950 2683 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 6950 2774 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 6800 3210 50  0001 C CNN
 F 3 "~" H 6950 3310 50  0001 C CNN
@@ -449,10 +449,10 @@ Wire Wire Line
 Wire Wire Line
 	7300 2250 7600 2250
 $Comp
-L Connector_Generic:Conn_01x05 ROT2
+L Connector_Generic:Conn_01x05 ROT1B1
 U 1 1 608F523A
 P 9000 3050
-F 0 "ROT2" H 9080 3092 50  0000 L CNN
+F 0 "ROT1B1" H 9080 3092 50  0000 L CNN
 F 1 "Conn_01x05" H 9080 3001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9000 3050 50  0001 C CNN
 F 3 "~" H 9000 3050 50  0001 C CNN
@@ -516,4 +516,181 @@ Wire Wire Line
 	7300 3900 7600 3900
 Wire Wire Line
 	7300 4000 7600 4000
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 60849D99
+P 9000 850
+F 0 "SW1" H 9000 1135 50  0000 C CNN
+F 1 "SW_SPDT" H 9000 1044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 9000 850 50  0001 C CNN
+F 3 "~" H 9000 850 50  0001 C CNN
+	1    9000 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 6084A881
+P 9000 1350
+F 0 "SW2" H 9000 1635 50  0000 C CNN
+F 1 "SW_SPDT" H 9000 1544 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 9000 1350 50  0001 C CNN
+F 3 "~" H 9000 1350 50  0001 C CNN
+	1    9000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 6084B3F7
+P 9000 1850
+F 0 "SW3" H 9000 2135 50  0000 C CNN
+F 1 "SW_SPDT" H 9000 2044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 9000 1850 50  0001 C CNN
+F 3 "~" H 9000 1850 50  0001 C CNN
+	1    9000 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8700 850  0    50   Input ~ 0
+SW1_2
+Text GLabel 9300 750  2    50   Input ~ 0
+SW1_1
+Text GLabel 9300 950  2    50   Input ~ 0
+SW1_3
+Wire Wire Line
+	9200 750  9300 750 
+Wire Wire Line
+	9200 950  9300 950 
+Wire Wire Line
+	8800 850  8700 850 
+Text GLabel 8700 1350 0    50   Input ~ 0
+SW2_2
+Wire Wire Line
+	8800 1350 8700 1350
+Text GLabel 8700 1850 0    50   Input ~ 0
+SW3_2
+Wire Wire Line
+	8800 1850 8700 1850
+Text GLabel 9300 1250 2    50   Input ~ 0
+SW2_1
+Text GLabel 9300 1450 2    50   Input ~ 0
+SW2_3
+Wire Wire Line
+	9200 1250 9300 1250
+Wire Wire Line
+	9200 1450 9300 1450
+Text GLabel 9300 1750 2    50   Input ~ 0
+SW3_1
+Text GLabel 9300 1950 2    50   Input ~ 0
+SW3_3
+Wire Wire Line
+	9200 1750 9300 1750
+Wire Wire Line
+	9200 1950 9300 1950
+Text GLabel 1650 2200 2    50   Input ~ 0
+SW1_2
+Wire Wire Line
+	1350 2200 1650 2200
+Text GLabel 1650 2500 2    50   Input ~ 0
+SW2_2
+Wire Wire Line
+	1350 2500 1650 2500
+Text GLabel 1650 2800 2    50   Input ~ 0
+SW3_2
+Wire Wire Line
+	1350 2800 1650 2800
+Text GLabel 1650 2100 2    50   Input ~ 0
+SW1_1
+Text GLabel 1650 2300 2    50   Input ~ 0
+SW1_3
+Wire Wire Line
+	1350 2100 1650 2100
+Wire Wire Line
+	1350 2300 1650 2300
+Text GLabel 1650 2400 2    50   Input ~ 0
+SW2_1
+Text GLabel 1650 2600 2    50   Input ~ 0
+SW2_3
+Wire Wire Line
+	1350 2400 1650 2400
+Wire Wire Line
+	1350 2600 1650 2600
+Text GLabel 1650 2900 2    50   Input ~ 0
+SW3_3
+Wire Wire Line
+	1350 2900 1650 2900
+Wire Wire Line
+	1350 2700 1650 2700
+Text GLabel 1650 2700 2    50   Input ~ 0
+SW3_1
+Text GLabel 3400 2300 2    50   Input ~ 0
+SW1_1
+Wire Wire Line
+	3100 2300 3400 2300
+Text GLabel 3400 2200 2    50   Input ~ 0
+SW1_2
+Wire Wire Line
+	3100 2200 3400 2200
+Text GLabel 3400 2100 2    50   Input ~ 0
+SW1_3
+Wire Wire Line
+	3100 2100 3400 2100
+Text GLabel 3400 2000 2    50   Input ~ 0
+SW2_1
+Wire Wire Line
+	3100 2000 3400 2000
+Text GLabel 3400 1900 2    50   Input ~ 0
+SW2_2
+Wire Wire Line
+	3100 1900 3400 1900
+Text GLabel 3400 1800 2    50   Input ~ 0
+SW2_3
+Wire Wire Line
+	3100 1800 3400 1800
+Text GLabel 3400 1600 2    50   Input ~ 0
+SW3_2
+Wire Wire Line
+	3100 1600 3400 1600
+Text GLabel 3400 1500 2    50   Input ~ 0
+SW3_3
+Wire Wire Line
+	3100 1500 3400 1500
+Wire Wire Line
+	3100 1700 3400 1700
+Text GLabel 3400 1700 2    50   Input ~ 0
+SW3_1
+Text GLabel 5000 2300 0    50   Input ~ 0
+SW1_1
+Wire Wire Line
+	5300 2300 5000 2300
+Text GLabel 5000 2200 0    50   Input ~ 0
+SW1_2
+Wire Wire Line
+	5300 2200 5000 2200
+Text GLabel 5000 2100 0    50   Input ~ 0
+SW1_3
+Wire Wire Line
+	5300 2100 5000 2100
+Text GLabel 5000 2000 0    50   Input ~ 0
+SW2_1
+Wire Wire Line
+	5300 2000 5000 2000
+Text GLabel 5000 1900 0    50   Input ~ 0
+SW2_2
+Wire Wire Line
+	5300 1900 5000 1900
+Text GLabel 5000 1800 0    50   Input ~ 0
+SW2_3
+Wire Wire Line
+	5300 1800 5000 1800
+Text GLabel 5000 1600 0    50   Input ~ 0
+SW3_2
+Wire Wire Line
+	5300 1600 5000 1600
+Text GLabel 5000 1500 0    50   Input ~ 0
+SW3_3
+Wire Wire Line
+	5300 1500 5000 1500
+Wire Wire Line
+	5300 1700 5000 1700
+Text GLabel 5000 1700 0    50   Input ~ 0
+SW3_1
 $EndSCHEMATC
