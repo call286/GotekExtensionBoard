@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AmigaExternalBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/AmigaExternalBoard-rescue.lib)(options "")(descr ""))
+)
