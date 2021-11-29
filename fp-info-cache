@@ -1,4 +1,4 @@
-18667646421687369
+18669276340139699
 Audio_More
 Jack_3.5mm_4UCON
 
@@ -48971,6 +48971,13 @@ ESP32_NodeMCU
 0
 38
 38
+DCDModules
+SolderJumper-3_P0.5mm_Open_Pad0.5x0.5mm
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
