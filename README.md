@@ -1,4 +1,7 @@
 # GotekExtensionBoard
+
+![Board Render Front](ExternalBoard.jpg "Board Render Front")
+
 External board initally meant to provide an extrenal board for Goteks in Amiga 500.
 * 2 Boards
   * internal board to connect to the gotek and other internal hardware
